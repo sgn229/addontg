@@ -112,7 +112,7 @@ export async function getVixSrcStreams(tmdbId: string, season?: string, episode?
         const urlObj = new URL(serverUrl);
         urlObj.searchParams.set('token', token);
         urlObj.searchParams.set('expires', expires);
-        urlObj.searchParams.set('lang', 'en');
+        urlObj.searchParams.set('lang', 'it');
         if (asn) urlObj.searchParams.set('asn', asn);
         if (canPlayFHD) urlObj.searchParams.set('h', '1');
 
